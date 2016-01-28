@@ -23,4 +23,5 @@ The project is using the 1.59 boost library. Please link boost proper to your pr
 ###### Steps under unix(using g++):
 - First you need to install boost with the Package Manager (under Arch Linux ```sudo pacman -S boost boost-libs```
 - Then compile (depended on the unix system you need to add the -pthread flag):
+
 ```g++ <cpp files> -o <output file> -std=c++11 -lboost_system -lrt [-pthread]```
